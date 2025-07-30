@@ -33,18 +33,20 @@ The primary goal of this project is to build a machine learning model that can a
 
 customer_churn_project/
 
-│
 ├── dataset/
 
 │   └── internet_service_churn.csv      # The raw dataset
 
 │
 ├── models/
-│   ├── model.pkl                       # Serialized best-performing machine learning model
-│   └── scaler.pkl                      # Serialized scaler object for data preprocessing
-│
+
+    ├── model.pkl                       # Serialized best-performing machine learning model
+    └── scaler.pkl                      # Serialized scaler object for data preprocessing
+
 ├── customer_churn.ipynb                # Jupyter Notebook with EDA and model building steps
+
 ├── app.py                              # The main Streamlit application script
+
 └── requirements.txt                    # Python dependencies for deployment
 
 
