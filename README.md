@@ -8,7 +8,7 @@ This project is an end-to-end data science application that predicts customer ch
 
 ##  Live Demo
 
-**You can access the live web application here:** [Streamlit App URL](https://your-streamlit-app-url.streamlit.app/) <!-- Replace with your actual Streamlit Cloud URL -->
+**You can access the live web application here:** [Streamlit App URL](https://isp-churn-prediction-jjk3tt9ue2erv9jw83waop.streamlit.app/) 
 
 ---
 
@@ -98,48 +98,8 @@ The **Random Forest Classifier** was selected as the final model due to its supe
 - **Streamlit:** For building and deploying the interactive web application
 - **Pickle:** For model serialization
 
----
 
-## Setup and Deployment
-
-### Prerequisites
-- Python 3.8+
-- `pip` for package installation
-
-### Running Locally
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/customer_churn_project.git](https://github.com/your-username/customer_churn_project.git)
-    cd customer_churn_project
-    ```
-
-2.  **Create and activate a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    
-4.  **Run the training script (only needed once to generate the .pkl files):**
-    Make sure `internet_service_churn.csv` is in the `dataset/` folder.
-    ```bash
-    python model_training_script.py 
-    ```
-
-5.  **Run the Streamlit application:**
-    ```bash
-    streamlit run app.py
-    ```
-    The application will open in your web browser.
 
 ### Deployment on Streamlit Cloud
 This app is ready for deployment on Streamlit Cloud. Simply connect your GitHub repository to your Streamlit account. The `requirements.txt` file will ensure that all necessary libraries are automatically installed on the server.
 
----
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
