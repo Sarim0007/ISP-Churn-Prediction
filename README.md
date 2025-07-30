@@ -21,12 +21,8 @@ This project is an end-to-end data science application that predicts customer ch
   - [3. Feature Selection](#3-feature-selection)
   - [4. Model Building & Evaluation](#4-model-building--evaluation)
   - [5. Model Serialization](#5-model-serialization)
-- [Technologies Used](#technologies-used)
-- [Setup and Deployment](#setup-and-deployment)
-  - [Prerequisites](#prerequisites)
-  - [Running Locally](#running-locally)
+  - [Technologies Used](#technologies-used)
   - [Deployment on Streamlit Cloud](#deployment-on-streamlit-cloud)
-- [License](#license)
 
 ---
 
