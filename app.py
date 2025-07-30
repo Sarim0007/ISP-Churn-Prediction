@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 # --- Load Model and Scaler ---
 # Load the pre-trained RandomForest model
 try:
-    with open('model.pkl', 'rb') as model_file:
+    with open('models/model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
 except FileNotFoundError:
     st.error("The 'model.pkl' file was not found. Please run the training script first to generate it.")
@@ -14,7 +14,7 @@ except FileNotFoundError:
 
 # Load the fitted scaler object
 try:
-    with open('scaler.pkl', 'rb') as scaler_file:
+    with open('models/scaler.pkl', 'rb') as scaler_file:
         scaler = pickle.load(scaler_file)
 except FileNotFoundError:
     st.error("The 'scaler.pkl' file was not found. Please run the training script first to generate it.")
