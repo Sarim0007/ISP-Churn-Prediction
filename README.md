@@ -32,9 +32,12 @@ The primary goal of this project is to build a machine learning model that can a
 ## Project Structure
 
 customer_churn_project/
+
 │
 ├── dataset/
+
 │   └── internet_service_churn.csv      # The raw dataset
+
 │
 ├── models/
 │   ├── model.pkl                       # Serialized best-performing machine learning model
