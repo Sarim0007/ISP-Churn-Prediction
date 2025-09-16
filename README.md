@@ -73,7 +73,6 @@ customer_churn_project/
 
 ### 4. Model Building & Evaluation
 Several classification models were trained and evaluated to find the best performer:
-- Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Decision Tree
 - Support Vector Classifier (SVC)
