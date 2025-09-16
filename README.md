@@ -76,9 +76,7 @@ Several classification models were trained and evaluated to find the best perfor
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Decision Tree
-- **Random Forest Classifier** (Best Performer)
 - Support Vector Classifier (SVC)
-- Gaussian Naive Bayes
 
 The **Random Forest Classifier** was selected as the final model due to its superior performance, achieving an **accuracy of 93.45%**.
 
